@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+
+img {
+}
+
+/* =================
+Typography
+================= */
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.125rem;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: ;
+}
+
+.strong {
+  font-weight: 700;
+}
+
+.nav,
+.btn {
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.intro {
+  font-size: 1.125rem;
+}
+
+.main {
+  text-align: center;
+  color: #6a6a6a;
+}
+
+.footer {
+  background: #ebebeb;
+  text-align: center;
+  color: #959595;
+}
+
+/* =================
+Layout
+================= */
+
+.header {
+  background: #000000;
+  background-image: url(/img/hero-bg.jpg);
+  background-size: cover;
+  padding: 0 2em 5em;
+}
+
+/* navigation */
+
+.logo {
+  background: #fee600;
+}
+
+/* button */
+
+.btn {
+  background: #fee600;
+  padding: 1em 2.5em;
+}
