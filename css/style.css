@@ -63,7 +63,7 @@ a:focus {
 Layout
 ================= */
 
-.header {
+.header-content {
   background: #000000;
   background-image: url(/img/hero-bg.jpg);
   background-size: cover;
