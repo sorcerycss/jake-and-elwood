@@ -20,12 +20,16 @@
     <title>Jake & Elwood</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header main-grid">
       <div class="header-content">
         <a class="logo-link">
           <img class="logo" alt="" src="./img/logo.png"
         /></a>
-        <nav class="nav">
+        <button aria-label="Open navigation" class="open-nav">&#9776;</button>
+        <nav class="nav navigation-open">
+          <button aria-label="Close navigation" class="close-nav">
+            &times;
+          </button>
           <ul class="nav-list">
             <li class="nav-item">
               <a href="index.html" class="nav-link">home</a>
@@ -60,23 +64,26 @@
         <div class="col">
           <h2 class="section-title section-title-center">About Us</h2>
           <p>
-            We grew up in downtown Chicago, and we used to play in a band. Jake
-            loves fried chicken, and Elwood loves dry white toast.
+            We grew up in downtown Chicago, and we used to play in a band.
+            <strong> Jake loves fried chicken </strong>, and
+            <strong> Elwood loves dry white toast </strong>.
           </p>
         </div>
         <div class="col">
           <h2 class="section-title section-title-center">Our skills</h2>
           <p>
-            Elwood is an expert in SEO, SEM, and driving from the police. Jake
-            is our social media specialist, and he has an amazing voice.
+            Elwood is an expert in
+            <strong>SEO, SEM, and driving from the police</strong>. Jake is our
+            <strong>social media specialist</strong>, and he has an amazing
+            voice.
           </p>
         </div>
         <div class="col">
           <h2 class="section-title section-title-center">Get in touch</h2>
           <p>
-            Send us an email with some info about what help you need and we’ll
-            drive over to your place in our Bluesmobile the following day to
-            discuss the deal.
+            Send us an email with some info about what help you need and
+            <strong> we’ll drive over to your place </strong> in our Bluesmobile
+            the following day to discuss the deal.
           </p>
         </div>
       </section>
@@ -103,5 +110,6 @@
         </li>
       </ul>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
