@@ -74,7 +74,18 @@ a:focus {
 
 .page-title {
   font-size: 3rem;
-  margin-bottom: 0;
+  margin-bottom: 0.5em;
+  justify-self: center;
+}
+
+.page-title::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 30px;
+  background: #ffe600;
+  margin-top: -40px;
+  margin-left: 15px;
 }
 
 .subtitle {
