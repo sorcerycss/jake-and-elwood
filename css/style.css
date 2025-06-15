@@ -99,12 +99,18 @@ a:focus {
   padding: 0.5em 1.75em;
   font-weight: 700;
   margin-top: 0.5em;
+  text-decoration: none;
+  border: 0;
 }
 
 .btn-primary {
   background: #fee600;
   color: #000;
   justify-self: start;
+}
+
+.btn-form {
+  justify-self: end;
 }
 
 .nav,
@@ -382,11 +388,40 @@ a:focus {
 }
 
 @media (min-width: 600px) {
-  .main-image {
+  .main-image,
+  .secondary-text {
     grid-column: 2;
   }
 
   .main-text {
     grid-column: 3 / span 2;
   }
+
+  .secondary-text {
+    order: 2;
+  }
+}
+
+/* =================
+      Form
+================= */
+
+.contact-form {
+  display: grid;
+}
+
+label {
+  font-weight: 700;
+}
+
+input,
+textarea {
+  margin-bottom: 0.75em;
+  padding: 0.5em;
+  font-family: inherit;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
 }
