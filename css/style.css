@@ -89,6 +89,12 @@ a:focus {
   background: black;
 }
 
+.header-home {
+  background: transparent;
+  position: absolute;
+  width: 100%;
+}
+
 .header-content {
   display: flex;
   grid-column: 2 / -2;
@@ -181,6 +187,10 @@ a:focus {
   .nav-link {
     font-size: 1rem;
   }
+
+  .header-home .nav {
+    background: transparent;
+  }
 }
 
 /* =================
@@ -257,7 +267,7 @@ a:focus {
   background-image: url(/img/hero-bg.jpg);
   background-size: cover;
   background-position: bottom;
-  padding: 4em 0;
+  padding: 8em 0 4em;
   color: #fff;
 }
 
@@ -265,9 +275,15 @@ a:focus {
   grid-column: 2 / -2;
 }
 
+@media (min-width: 400px) {
+  .hero > * {
+    margin-right: 20%;
+  }
+}
+
 @media (min-width: 600px) {
   .hero {
-    padding: 6em 0;
+    padding: 10em 0 6em;
   }
 
   .hero > * {
